@@ -1,0 +1,10 @@
+# Python Version: 3.11.9
+tree_sitter==0.25.2
+tree_sitter_java==0.23.5
+transformers==4.35.2
+protobuf==4.24.4
+spacy==3.7.4
+torch==2.1.0
+accelerate==1.13.0
+nltk==3.9.1
+pycparser==2.22
