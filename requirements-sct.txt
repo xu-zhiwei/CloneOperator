@@ -1,0 +1,4 @@
+# Lightweight dependencies for the 51-operator Java/C API and CLI.
+tree_sitter==0.25.2
+tree_sitter_java==0.23.5
+tree_sitter_c==0.24.1

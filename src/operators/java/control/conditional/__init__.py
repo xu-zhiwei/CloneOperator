@@ -1,0 +1,1 @@
+"""SCT table hierarchy package."""

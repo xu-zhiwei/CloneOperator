@@ -1,21 +1,24 @@
-from .base_operator import BaseOperator
-from .identifier_rename import IdentifierRename
-from .constant_replace import ConstantReplace
-from .redundant_constant_insert import RedundantConstantInsert
-from .identifier_reorder import IdentifierReorder
-from .loop_replace import LoopReplace
-from .condition_replace import ConditionReplace
-from .statement_reorder import StatementReorder
-from .redundant_statement_insert import RedundantStatementInsert
+"""SCT strategies, classification and lazy public compatibility exports."""
+from importlib import import_module
+from .base.results import ApplicationResult
+from .registry import *
+from .registry import __all__ as _strategy_exports
+from .compatibility.imports import install_aliases, LEGACY_EXPORTS
 
-__all__ = [
-    "BaseOperator",
-    "IdentifierRename",
-    "ConstantReplace",
-    "RedundantConstantInsert",
-    "IdentifierReorder",
-    "LoopReplace",
-    "ConditionReplace",
-    "StatementReorder",
-    "RedundantStatementInsert",
-]
+install_aliases()
+_legacy = LEGACY_EXPORTS
+
+
+def __getattr__(name):
+    if name in _legacy or name in {"ConstantReplaceV2", "IdentifierRenameV5"}:
+        value = getattr(import_module("operators.compatibility.adapters"), name)
+        globals()[name] = value
+        return value
+    raise AttributeError(name)
+
+
+__all__ = (
+    list(_legacy)
+    + _strategy_exports
+    + ["ApplicationResult", "ConstantReplaceV2", "IdentifierRenameV5"]
+)

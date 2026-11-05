@@ -1,0 +1,2 @@
+from .declaration_splitting import DeclarationSplitting
+from .declaration_merging import DeclarationMerging

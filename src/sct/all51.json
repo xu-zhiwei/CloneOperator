@@ -1,0 +1,284 @@
+{
+  "name": "ALL51_BATCH_V1",
+  "status": "exploratory finite full-site batches; conservative region locks, not formal AST provenance",
+  "seed": 42,
+  "transformed_side": "B",
+  "operator_order": "Seven planned phases: delete, contract, reorder, structural conversion, expand, rename, insert",
+  "inverse_policy": "remapped conservative region guards block reverse edits; seeded assignment of safe alternative loop/dispatch constructions",
+  "growth_cap": null,
+  "options": "repository defaults; only per-program operator seed overridden",
+  "stages": [
+    {
+      "paper_id": "WC2",
+      "phase": 1,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SE3",
+      "phase": 1,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SD3",
+      "phase": 1,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SS3",
+      "phase": 1,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC3",
+      "phase": 1,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CL2",
+      "phase": 1,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "WC4",
+      "phase": 2,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "WC6",
+      "phase": 2,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "WC8",
+      "phase": 2,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SE6",
+      "phase": 2,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SE8",
+      "phase": 2,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SE10",
+      "phase": 2,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SD5",
+      "phase": 2,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SS5",
+      "phase": 2,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC9",
+      "phase": 2,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC12",
+      "phase": 2,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC14",
+      "phase": 2,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SE1",
+      "phase": 3,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SE4",
+      "phase": 3,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SD1",
+      "phase": 3,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SS1",
+      "phase": 3,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC1",
+      "phase": 3,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC10",
+      "phase": 3,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SD4",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SS4",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC4",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC5",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC6",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC7",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC8",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC11",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC13",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CL3",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CL4",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CL5",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CL6",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CL7",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CL8",
+      "phase": 4,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "WC3",
+      "phase": 5,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "WC5",
+      "phase": 5,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "WC7",
+      "phase": 5,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SE5",
+      "phase": 5,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SE7",
+      "phase": 5,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SE9",
+      "phase": 5,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "WI1",
+      "phase": 6,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "WC1",
+      "phase": 7,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SE2",
+      "phase": 7,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SD2",
+      "phase": 7,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "SS2",
+      "phase": 7,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CC2",
+      "phase": 7,
+      "budget": "all_snapshot_safe_locations"
+    },
+    {
+      "paper_id": "CL1",
+      "phase": 7,
+      "budget": "all_snapshot_safe_locations"
+    }
+  ],
+  "batch_mode": "all distinct safe edit-footprint locations; per-stage snapshots except the six insertion operators share one pre-insertion snapshot; fresh safety analysis before every edit",
+  "exclusive_groups": [
+    [
+      "CC4",
+      "CC5",
+      "CC6",
+      "CC7"
+    ],
+    [
+      "CL3",
+      "CL4",
+      "CL5",
+      "CL6",
+      "CL7",
+      "CL8"
+    ]
+  ]
+}

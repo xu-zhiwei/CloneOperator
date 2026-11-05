@@ -1,6 +1,5 @@
 # Python Version: 3.11.9
-tree_sitter==0.25.2
-tree_sitter_java==0.23.5
+-r requirements-sct.txt
 transformers==4.35.2
 protobuf==4.24.4
 spacy==3.7.4
